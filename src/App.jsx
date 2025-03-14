@@ -17,8 +17,14 @@ function App() {
       <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Home />
-        <About />
+        <div className="h-screen overflow-y-scroll snap-y snap-mandatory">
+          <div className="snap-center">
+            <Home />
+          </div>
+          <div className="snap-center">
+            <About />
+          </div>
+        </div>
       </div>
     </>
   );

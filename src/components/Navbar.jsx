@@ -8,9 +8,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
   return (
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
-      <div className="max-w-screen-2xl mx-auto px-4">
-        <div className="flex justify-between items-center text-2xl h-24">
-          <a href="#home" className="font-mono sm:text-xl md:text-3xl font-bold text-white">
+      <div className="max-w-screen-2xl md:max-w-screen-3xl mx-auto px-4">
+        <div className="flex justify-between items-center text-2xl h-24 md:h-30">
+          <a href="#home" className="font-mono sm:text-xl md:text-4xl font-bold text-white">
             {""}
             ben-houghton<span className="text-blue-500">.com</span>
           </a>
@@ -20,19 +20,19 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-300 hover:text-white transition-colors">
+            <a href="#home" className="text-gray-300 hover:text-white transition-colors hover:-translate-y-0.5">
               {" "}Home{" "}
             </a>
 
-            <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+            <a href="#about" className="text-gray-300 hover:text-white transition-colors hover:-translate-y-0.5">
               {" "}About{" "}
             </a>
 
-            <a href="#projects" className="text-gray-300 hover:text-white transition-colors">
+            <a href="#projects" className="text-gray-300 hover:text-white transition-colors hover:-translate-y-0.5">
               {" "}Projects{" "}
             </a>
 
-            <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
+            <a href="#contact" className="text-gray-300 hover:text-white transition-colors hover:-translate-y-0.5">
               {" "}Contact{" "}
             </a>
           </div>

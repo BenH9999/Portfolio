@@ -6,8 +6,8 @@ export const About = () => {
   const backendSkills = ["Golang", "C++", "Java", "AWS", "Postgres", "MySQL"];
 
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center py-20">
-      <div className="max-w-3xl mx-auto px-4 text-center">
+    <section id="about" className="min-h-screen flex items-center justify-center">
+      <div className="max-w-3xl max-h-3xl md:max-h-5xl md:max-w-5xl mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-8xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
           About Me
         </h2>
