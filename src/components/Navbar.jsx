@@ -10,12 +10,12 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-screen-2xl mx-auto px-4">
         <div className="flex justify-between items-center text-2xl h-24">
-          <a href="#home" className="font-mono sm:text-xl lg:text-3xl font-bold text-white">
+          <a href="#home" className="font-mono sm:text-xl md:text-3xl font-bold text-white">
             {""}
             ben-houghton<span className="text-blue-500">.com</span>
           </a>
 
-          <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
+          <div className="w-9 h-9 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
             &#9776;
           </div>
 
