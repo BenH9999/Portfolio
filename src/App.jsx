@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar';
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
+import { Projects } from "./components/sections/Projects";
 import './index.css';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
           </div>
           <div className="snap-center">
             <About />
+          </div>
+          <div className="snap-center">
+            <Projects />
           </div>
         </div>
       </div>
