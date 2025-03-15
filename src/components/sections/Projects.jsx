@@ -2,14 +2,14 @@ export const Projects = () => {
   return (
     <section id="projects" className="min-h-screen flex items-center justify-center py-20">
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-4xl md:text-8xl font-bold mb-4 md:mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+        <h2 className="text-2xl md:text-8xl font-bold mb-4 md:mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
           Featured Projects
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <a href="https://github.com/BenH9999/CampusConnect">
-            <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold py-2">
+            <div className="p-6 rounded-xl border border-blue-500/30 shadow-[0_2px_8px_rgba(59,130,246,0.2)] hover:-translate-y-1 hover:border-white transition-all">
+              <h3 className="sm:text-sm md:text-xl font-bold py-2">
                 Mobile App - Campus Connect
               </h3>
               <p className="text-gray-400 mb-2">
@@ -30,8 +30,8 @@ export const Projects = () => {
           </a>
 
           <a href="https://github.com/Cieran0/quckathon-25">
-            <div className="p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold py-2">
+            <div className="p-6 rounded-xl border border-blue-500/30 shadow-[0_2px_8px_rgba(59,130,246,0.2)] hover:-translate-y-1 hover:border-white transition-all">
+              <h3 className="sm:text-sm md:text-xl font-bold py-2">
                 CMS Tool for Quckathon 2025 - Blackrock
               </h3>
               <p className="text-gray-400 mb-2">
