@@ -1,3 +1,5 @@
+import { ScrollIndicator } from "../ScrollIndicator"
+
 export const Home = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative">
@@ -23,6 +25,7 @@ export const Home = () => {
           </a>
         </div>
       </div>
+      <ScrollIndicator />
     </section>
   )
 }

@@ -6,6 +6,7 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
+import { Contact } from "./components/sections/Contact";
 import './index.css';
 
 function App() {
@@ -18,17 +19,10 @@ function App() {
       <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
-          <div className="snap-center">
-            <Home />
-          </div>
-          <div className="snap-center">
-            <About />
-          </div>
-          <div className="snap-start md:snap-center">
-            <Projects />
-          </div>
-        </div>
+          <Home />
+          <About />
+          <Projects />
+          <Contact />
       </div>
     </>
   );

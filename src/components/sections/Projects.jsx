@@ -2,7 +2,7 @@ export const Projects = () => {
   return (
     <section id="projects" className="min-h-screen flex items-center justify-center py-20">
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-2xl md:text-7xl font-bold mb-4 md:mb-8 leading-tight bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+        <h2 className="text-4xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
           Featured Projects
         </h2>
 

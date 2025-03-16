@@ -3,7 +3,7 @@
 export const About = () => {
 
   const frontendSkills = ["React", "React Native", "JavaScript", "TypeScript", "TailwindCSS"];
-  const backendSkills = ["Golang", "C++", "Java", "AWS", "Postgres", "MySQL"];
+  const backendSkills = ["Golang", "C++", "Java", "Python", "AWS", "Postgres", "MySQL"];
   const tools = ["npm", "CMake", "Visual Studio", "Linux", "Neovim"];
 
   return (
