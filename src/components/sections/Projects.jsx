@@ -78,7 +78,7 @@ export const Projects = () => {
               </h3>
               <p className="text-gray-400 mb-2 text-xs md:text-base">
                 Private project where I am trying to create a QR code generator from scratch.
-                Generating everything from alignment patters, to calculating appropriate error correction
+                Generating everything from alignment patterns, to calculating appropriate error correction
                 and size for the input given to be stored.
               </p>
               <div className="flex flex-wrap gap-2">
