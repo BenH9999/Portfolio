@@ -29,7 +29,7 @@ function App() {
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div className={`relative min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
-      <div className="fixed top-1/2 left-0 w-full h-[445px] -translate-y-1/2 pointer-events-none opacity-20 z-0">
+      <div className="fixed top-1/2 left-0 w-full h-[445px] -translate-y-1/2 pointer-events-none opacity-10 z-0">
         <GeminiEffect
           pathLengths={[
           pathLengthFirst,
