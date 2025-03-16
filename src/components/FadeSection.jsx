@@ -1,5 +1,5 @@
 import React from "react";
-import { useIntersectionRatio } from "../hooks/useIntersectionRatio.js";
+import { useIntersectionRatio } from "../hooks/useIntersectionRatio";
 
 export const FadeSection = ({ children, style, ...rest }) => {
   const [ref, ratio] = useIntersectionRatio();
