@@ -25,7 +25,7 @@ function App() {
           <div className="snap-center">
             <About />
           </div>
-          <div className="snap-center">
+          <div className="snap-start md:snap-center">
             <Projects />
           </div>
         </div>
