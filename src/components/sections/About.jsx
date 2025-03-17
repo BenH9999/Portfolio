@@ -4,7 +4,7 @@ export const About = () => {
 
   const frontendSkills = ["React", "React Native", "JavaScript", "TypeScript", "TailwindCSS"];
   const backendSkills = ["Golang", "C++", "Java", "Python", "AWS", "Postgres", "MySQL"];
-  const tools = ["npm", "CMake", "Visual Studio", "Linux", "Neovim"];
+  const tools = ["Git", "npm", "CMake", "Visual Studio", "Linux", "Neovim"];
 
   return (
     <section id="about" className="min-h-screen flex items-center justify-center">
