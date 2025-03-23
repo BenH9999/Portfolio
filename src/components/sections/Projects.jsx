@@ -13,7 +13,7 @@ export const Projects = () => {
                 Mobile App - Campus Connect
               </h3>
               <p className="text-gray-400 mb-2 text-xs md:text-base">
-                Social media app created for a University project, with the theme
+                Social media app created for a University project, theme
                 of creating a place for people within a University setting
                 to collaborate and plan events, all in one place.
                 Boasts features such as live updating feed of posts, customisable profiles
