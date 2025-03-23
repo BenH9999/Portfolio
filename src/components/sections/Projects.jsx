@@ -20,7 +20,7 @@ export const Projects = () => {
                 with images, and following/messaging friends.
               </p>
               <div className="flex flex-wrap gap-2">
-                {["React Native", "TypeScript", "Golang", "Postgres"].map((tech, key) => (
+                {["React Native", "TypeScript", "Golang", "Postgres", "Docker"].map((tech, key) => (
                   <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-xs md:text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                     {tech}
                   </span>
