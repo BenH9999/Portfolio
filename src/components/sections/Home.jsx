@@ -13,14 +13,14 @@ export const Home = () => {
           build software solutions that will provide an exceptional user experience
         </p>
 
-        <div className="flex justify-center space-x-4 text-sm md:text-2xl">
-          <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
+        <div className="flex justify-center space-x-4 text-xs md:text-2xl">
+          <a href="#projects" className="bg-blue-500 text-white py-2 px-4 md:py-3 md:px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
             View Projects
           </a>
-          <a href="#contact" className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10">
+          <a href="#contact" className="border border-blue-500/50 text-blue-500 py-2 px-4 md:py-3 md:px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10">
             Contact Me
           </a>
-          <a href="/Benjamin_Houghton_CV.pdf" rel="noopener noreferrer" className="bg-gradient-to-r from-blue-400 to-purple-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(128,90,213,0.4)]">
+          <a href="/Benjamin_Houghton_CV.pdf" rel="noopener noreferrer" className="bg-gradient-to-r from-blue-400 to-purple-500 text-white py-2 px-4 md:py-3 md:px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(128,90,213,0.4)]">
             View CV
           </a>
         </div>
